@@ -31,7 +31,8 @@
 
 .tab button {
     background-color: rgba(0,0,0,0%);
-    font-family: 'Roboto Light',sans-serif;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 200;
     font-size: 1.6vw;
     float: right;
     border: none;
@@ -142,6 +143,7 @@ h4{
 }
 .block-title{
     font-family: 'Roboto', monospace;
+    font-weight: 300;
     font-size: 1.8vw;
     margin:0;
     text-align: center;
@@ -165,7 +167,8 @@ h4{
     line-height: 0.9;
 }
 #owners-manual{
-    font-family: 'Roboto Light', monospace;
+    font-family: 'Roboto', monospace;
+    font-weight: 200;
     font-size: 3vw;
     line-height: 0;
 }
