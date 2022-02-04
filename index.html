@@ -1,170 +1,53 @@
-<!-- Hello -->
+<!-- Home Page -->
 <!DOCTYPE html>
-    <html>
-     <main>
-         <head>
+<html>
+    <main>
+        <head>
+            <!--links-->
+            <!--fonts-->
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Bungee&family=Roboto:wght@100&family=Bungee+Hairline&family=Bungee+Outline&family=Bungee+Shade&family=Expletus+Sans:wght@700&family=Josefin+Sans:wght@100&family=Jost&family=Keania+One&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
-            <!-- meta -->
-            <!--fonts from google-->
-            
-            <link rel="stylesheet" href="mystyle.css">
-
-            <a href="#" target="_blank" style="text-decoration: none;"><h2 id="title" class="page-title">404<br/>LAB</h2></a>
+            <!--load css-->
+            <link rel="stylesheet" href="css/mystyle.css">
+            <link rel="stylesheet" href="css/hp.css">
+            <!--load javascript-->
+            <script src="js/headerTab.js"></script>
+            <!--meta-->
+            <style>
+                body{
+                    background-image: url(images/others/Lucid00.png);
+                    background-size: 100vw;
+                    background-repeat: no-repeat;
+                }
+                .page-title {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+            </style>
+        </head>
+        <body>
+            <!--HeaderSection graphics-->
+            <!--tabs-->
             <div class="tab">
-                 <!--tabs-->
-                 <button class="tablinks" href="#" tabindex="4">Support</button>
-                 <button class="tablinks" href="#" tabindex="3">Experiments</button>
-                 <button class="tablinks" href="#" tabindex="2">Research</button>
-                 <button class="tablinks" href="#" tabindex="1">Contact Us</button>
+                 <a href="pages/contact.html" alt="Contact"><button class="tablinks" tabindex="1">Contact</button></a>
+                 <button class="tablinks" tabindex="2" onclick="openManual(event, 'experiments-tab')">Experiments</button>
+                 <button class="tablinks" tabindex="3" onclick="openManual(event, 'support-tab')">Support</button>
+                 <a href="index.html" alt="Home-page"><button class="tablinks" tabindex="4">Home</button></a>
             </div>
-            <hr class="#"/>
-         </head>
-         <body>
-             <!-- -->
-             <div class="LR-Page">
-                <!-- Page01 L -->
-                <div id="p1b1">
-                    <!--spacing-->
-                    <br>
-                    <div class="product-name">
-                        <h1 id="MEGA-text">MEGA</h1>
-                        <h2 id="neighbour-text" class="bordered-text">NEIGHBOUR</h2>
-                    </div>
-                    <div id="code-name" class="product-name code-name">
-                        <h3 class="code-name">MN-3</h3>
-                    </div>
-                    <div id="owners-manual">
-                        <h3 class="OWM-text">OWNER'S MANUAL</h3>
-                        <h3 class="OWM-text">BEDIENUNGSANLEITUNG</h3>
-                        <h3 class="OWM-text">用户手册</h3>
-                        <h3 class="OWM-text">取扱説明書</h3>
-                    </div>
-                    
-                </div>
-                <!-- Page01 R -->
-                <div id="p1b2" class="page-side">
-                    <image id="MN3-image" class="manual-image center" src="Images/MN3/MN3_Dance00.png" alt="MN-3 Dancing"></image>
-                </div>
-                <!--Barcode-->
-                <div id="barcode" class="cross-width">NEIGHBOUR NOISE SIMULATION KIT</div>
+            <!--tab content-->
+            <div id="support-tab" class="tabcontent">
+                <a href="pages/mn3.html" alt="Head-Pot-page"><button class="tablinks" tabindex="5">MN-3</button></a>
+                <a href="pages/hp2.html" alt="MN3-page"><button class="tablinks" tabindex="6">Head Pot</button></a>
+            </div>
+            <div id="experiments-tab" class="tabcontent">
+                <a href="pages/mn3.html" alt="Head-Pot-page"><button class="tablinks" tabindex="5">Tunnel</button></a>
+                <a href="pages/hp2.html" alt="MN3-page"><button class="tablinks" tabindex="6">Ash Reboot</button></a>
+            </div>
 
-                <div id="p3b1" class="page-side">
-                    <!--page02 L -->
-                    <div>
-                        <hr/>
-                        <h3 id="video-demo-text"class="block-title">Parts / 部件</h3>
-                        <hr/>
-                    </div>
-                    <div class="#">
-                        <image class="manual-image center" style="width:35vw; top:2vw; padding:1vw 5vw 1vw 5vw;" src="Images/MN3/MN3_Content00.png" alt="MN-3_Content"></image>
-                        <image></image>
-                    </div>
-                    
-                </div>
-                <div id="p3b2" class="page-side">
-                    <!--page02 R -->
-                    <div>
-                        <hr/>
-                        <h3 id="video-demo-text"class="block-title">Functions / 功能</h3>
-                        <hr/>
-                        <p id="Functions-p" style="margin:0;"><h4 class="grid-border">The instrument (the box) is a miniaturized and simplified structure of a typical room that detects surrounding noise. With the power of this box-sized room, You can be your own loud neighbor from all directions. For example Tapping on the left side of the box’s ceiling, you will hear the neighbor noise from the left through your headphones. Finger-tapping across the ceiling from front to right, you will hear the noise from the corresponding directions, as if someone is heavy-walking upstairs.<br/><br/>It’s a self-contained instrument that projects the spatial sound(Currently in 2D, no Up and Down Variation) within the chamber to a spatial sound system or stereo headphone. </h4></p>
-                    </div>
-                    <div>
-                        <hr/>
-                        <h3 id="video-demo-text"class="block-title">Trouble Shooting / 故障排查</h3>
-                        <hr/>
-                        <p id="Functions-p" style="margin:0;"><h4 class="grid-border">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.<br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.  </h4></p>
-                    </div>
-                </div>
+            <hr class="tab-hr" style="height: 0.2px;"/>
+            <!--corp name-->
+            <a href="index.html" alt="Home-page" style="text-decoration: none;"><h2 id="title" class="page-title">404<br/>LAB</h2></a>
 
-                <div id="p2b1" class="page-side">
-                    <!--page03 L -->
-                    <div id="PD-Sketch">
-                        <image style="margin:2px; width:96%;" src="Images/ManualTextBlock_PlaceHolder00.jpg" alt="PD-Sketch"></image>
-                    </div>
-                </div>
-                <div id="p2b2" class="page-side">
-                    <!--page03 R -->
-                    <div>
-                        <hr/>
-                        <h3 id="video-demo-text"class="block-title">Video Demo / 视频演示</h3>
-                        <hr/>
-                        <div style="padding:60% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/651906624?h=ff4177f5dd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="MegaNeighbor_Demo01"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                        <div id="PD-Sketch">
-                            <image style="width:100%;" src="Images/MN3/PD_Sketch00.jpg" alt="PD-Sketch"></image>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-                <div id="p4" class="page-side" style="width:100vw; height: 20vw；">
-                    <!--page04 -->
-                    <div>
-                        <hr/>
-                        <h3 id="Assembly-text"class="block-title">Assembly / Montaget / 组装图示 / 組立</h3>
-                        <hr/>
-                        <div id="Assembly-grid" class="grid-border">
-                            <!--Assembly full width block-->
-                            <!--step 01-->
-                            <div id="step-01" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_0.0.png" alt="Step-01"></image>
-                                <p>
-                                    <h4>Step 01<br/>Prepare the base plate.</h4>
-                                </p>
-                            </div>
-                            <!--step 02-->
-                            <div id="step-02" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_0.5.png" alt="Step-02"></image>
-                                <p><h4>Step 02 blahblah</h4></p>
-                            </div>
-                            <!--step 03-->
-                            <div id="step-03" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_1-2.png" alt="Step-03"></image>
-                                <p><h4>Step 03 blahblah</h4></p>
-                            </div>
-                            <!--step 04-->
-                            <div id="step-04" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_2.5.png" alt="Step-04"></image>
-                                <p><h4>Step 04 blahblah</h4></p>
-                            </div>
-                            <!--step 05-->
-                            <div id="step-05" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_3.0.png" alt="Step-05"></image>
-                                <p><h4>Step 05 blahblah</h4></p>
-                            </div>
-                            <!--step 06-->
-                            <div id="step-06" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_3.5.png" alt="Step-06"></image>
-                                <p><h4>Step 06 blahblah</h4></p>
-                            </div>
-                            <!--step 07-->
-                            <div id="step-07" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_5.0.png" alt="Step-07"></image>
-                                <p><h4>Step 07 blahblah</h4></p>
-                            </div>
-                            <!--step 08-->
-                            <div id="step-08" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_5.5.png" alt="Step-08"></image>
-                                <p><h4>Step 08 blahblah</h4></p>
-                            </div>
-                            <!--step 09-->
-                            <div id="step-09" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_6.0.png" alt="Step-09"></image>
-                                <p><h4>Step 09 blahblah</h4></p>
-                            </div>
-                            <!--step 10-->
-                            <div id="step-10" class="single-step">
-                                <image class="steps-img" src="Images/MN3/LinesOnly/step_7.0.png" alt="Step-10"></image>
-                                <p><h4>Step 10 blahblah</h4></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <footer>
-                    <!--footer-->
-                </footer>
-         </body>
-     </main>
-    </html>
+        </body>
+    </main>
+</html>
