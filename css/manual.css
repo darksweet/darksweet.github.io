@@ -15,9 +15,11 @@
 .LR-Page > div{
     background-color: var(--paperColor);
     padding: 1vw 0vw 0vw 0vw;
-    font-size: 30px;
     width: 50%;
-    height: 46vw;
+    height: 50vw;
+}
+.LR-Page > div + .quater-box{
+    width: 25%;
 }
 .LR-Page > div > div{
     margin:0px 10px 0px 10px;
@@ -50,6 +52,12 @@
     object-position: 45% 0%;
     overflow:hidden;
 }
+.image-crop{
+    height:16vw;
+    object-fit: cover;
+    object-position: 50% 37%;
+    overflow:hidden;
+}
 
 .center {
     display: block;
@@ -60,6 +68,7 @@
 .code-name{
     font-size: 3vw;
     font-family: 'Roboto', monospace;
+    font-weight: 300;
     margin: 0vw;
     line-height: 7vw;
     
@@ -77,14 +86,23 @@
 }
 .grid-border{
     border: #353535 2px solid; 
-    border-radius: 1vw; 
-    padding:1vw;
+    border-radius: 0.6vw; 
+    padding: 1vw;
+}
+.sharp-border{
+    border: #353535 1.5px solid; 
+    border-radius: 0.2vw; 
+    margin: 1vw 0vw 1vw 0vw;
+    padding: 0.2vw;
+}
+.OWM-text{
+    font-family: 'Roboto', monospace;
+    font-weight: 300;
+    font-size: 3.6vw;
+    line-height: 1;
 }
 #owners-manual{
-    font-family: 'Roboto', monospace;
-    font-weight: 200;
-    font-size: 3vw;
-    line-height: 0;
+    /*  */
 }
 #barcode{
     margin:0;
@@ -94,7 +112,7 @@
     width:100%;
     height:fit-content;
     position:relative;
-    bottom: 3.5vw;
+    bottom: 2vw;
 }
 #Assembly-grid{
     display: grid;
@@ -108,4 +126,7 @@
     margin:0;
     position:relative;
     bottom:15vw;
+}
+p{
+    margin:0;padding:0;
 }

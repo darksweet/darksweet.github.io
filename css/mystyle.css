@@ -86,6 +86,14 @@ h2{
     font-size: 4vw;
     line-height: auto;
 }
+h3{
+    margin:0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5vw;
+    line-height: 1.4;
+}
+
+.h3s{font-size: 1.3vw; line-height: 1.2; margin:0; padding:0;}
 h4{
     margin:0;
     font-family: 'Open Sans Condensed', sans-serif;
