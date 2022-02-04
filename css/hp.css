@@ -1,0 +1,37 @@
+/*head pot css*/
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Bungee&family=Bungee+Hairline&family=Bungee+Outline&family=Bungee+Shade&family=Expletus+Sans:wght@700&family=Josefin+Sans:wght@100&family=Jost&family=Keania+One&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Maven+Pro&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Roboto+Slab:wght@900&display=swap');
+
+.bordered-text{
+    display:block;
+    background-color: rgb(134, 134, 134);
+    line-height: auto;
+    border: #353535 2px solid;
+    width:35vw;
+    text-align: right;
+}
+.code-name{
+    left: 16vw;
+    line-height: 1.6;
+}
+.shadow-a{
+    height: 10px;
+    border: 0;
+    box-shadow: 5px 10px 8px #888888;
+}
+#HP2-image{
+    top: 6vw; 
+    right:6vw;
+    width:55vw;
+}
+#HP-text{
+    overflow-y: 4vw;
+    font-family: 'Bungee Shade', monospace;
+    font-size: 9vw;
+    line-height: 0.9;
+    right:16vw;
+    border: #353535 0px solid;
+}
+#barcode{
+    position: relative;
+    bottom:2vw;
+}

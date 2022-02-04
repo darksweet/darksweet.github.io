@@ -1,0 +1,111 @@
+/*manual css*/
+:root {
+    --darkGray: rgb(56, 56, 56);
+    --paperColor: #fbfbfb;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Bungee&family=Bungee+Hairline&family=Bungee+Outline&family=Bungee+Shade&family=Expletus+Sans:wght@700&family=Josefin+Sans:wght@100&family=Jost&family=Keania+One&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Roboto+Slab:wght@900&display=swap');
+
+.LR-Page{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    color: var(--darkGray);
+}
+.LR-Page > div{
+    background-color: var(--paperColor);
+    padding: 1vw 0vw 0vw 0vw;
+    font-size: 30px;
+    width: 50%;
+    height: 46vw;
+}
+.LR-Page > div > div{
+    margin:0px 10px 0px 10px;
+}
+.product-name{
+    width:38.5vw;
+    position:relative;
+    right:8vw;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: #353535 2px solid;
+    border-radius: 2px;
+}
+.cross-width{
+    width:100%;
+    height:fit-content;
+}
+
+.manual-image{
+    position:relative; 
+    width:40vw;
+}
+.steps-img{
+    /* to bottom*/
+    width:18vw;
+    height:16vw;
+    object-fit: cover;
+    object-position: 45% 0%;
+    overflow:hidden;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.code-name{
+    font-size: 3vw;
+    font-family: 'Roboto', monospace;
+    margin: 0vw;
+    line-height: 7vw;
+    
+}
+.block-title{
+    font-family: 'Roboto', monospace;
+    font-weight: 400;
+    font-size: 1.8vw;
+    color: var(--darkGray);
+    background-color: rgb(210,210,210,0.5);
+    margin:0;
+    text-align: center;
+    line-height:1.2;
+    fill:rgba(0,0,0,0)
+}
+.grid-border{
+    border: #353535 2px solid; 
+    border-radius: 1vw; 
+    padding:1vw;
+}
+#owners-manual{
+    font-family: 'Roboto', monospace;
+    font-weight: 200;
+    font-size: 3vw;
+    line-height: 0;
+}
+#barcode{
+    margin:0;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 4vw;
+    line-height: 0;
+    width:100%;
+    height:fit-content;
+    position:relative;
+    bottom: 3.5vw;
+}
+#Assembly-grid{
+    display: grid;
+    margin:0vw;
+    padding:0;
+    grid-template-columns: repeat(5,19vw);
+    grid-template-rows: 20vw;
+    /*grid-gap: 10px;*/
+}
+#Assembly-grid > div > p{
+    margin:0;
+    position:relative;
+    bottom:15vw;
+}

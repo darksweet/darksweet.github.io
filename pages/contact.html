@@ -1,0 +1,45 @@
+<!--contact us html-->
+<!DOCTYPE html>
+    <html>
+     <main>
+         <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Bungee&family=Roboto:wght@100&family=Bungee+Hairline&family=Bungee+Outline&family=Bungee+Shade&family=Expletus+Sans:wght@700&family=Josefin+Sans:wght@100&family=Jost&family=Keania+One&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+            <!-- meta -->
+            <!--fonts from google-->
+            
+            <link rel="stylesheet" href="../css/mystyle.css">
+            <link rel="stylesheet" href="../css/manual.css">
+            <link rel="stylesheet" href="../css/hp.css">
+
+            <!--load javascript-->
+            <script src="../js/headerTab.js"></script>
+            
+         </head>
+         <body>
+            <!--Header-->
+            <a href="../index.html" style="text-decoration: none;"><h2 id="title" class="page-title">404<br/>LAB</h2></a>
+            <!--tabs-->
+            <div class="tab">
+                <a href="contact.html" alt="Contact"><button class="tablinks" tabindex="1">Contact</button></a>
+                <button class="tablinks" tabindex="2" onclick="openManual(event, 'experiments-tab')">Experiments</button>
+                <button class="tablinks" tabindex="3" onclick="openManual(event, 'support-tab')">Support</button>
+                <a href="../index.html" alt="Home-page"><button class="tablinks" tabindex="4">Home</button></a>
+            </div>
+            <!--tab content-->
+            <div id="support-tab" class="tabcontent">
+                <a href="mn3.html" alt="Head-Pot-page"><button class="tablinks" tabindex="5">MN-3</button></a>
+                <a href="hp2.html" alt="MN3-page"><button class="tablinks" tabindex="6">Head Pot</button></a>
+            </div>
+            <div id="experiments-tab" class="tabcontent">
+                <a href="mn3.html" alt="Head-Pot-page"><button class="tablinks" tabindex="5">Tunnel</button></a>
+                <a href="hp2.html" alt="MN3-page"><button class="tablinks" tabindex="6">Ash Reboot</button></a>
+            </div>
+
+            <hr class="tab-hr" style="height: 0.2px;"/>
+            <br/><br/>
+            
+         </body>
+     </main>
+    </html>
