@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Bungee&family=Bungee+Hairline&family=Bungee+Outline&family=Bungee+Shade&family=Expletus+Sans:wght@700&family=Josefin+Sans:wght@100&family=Jost&family=Keania+One&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Bungee&family=Bungee+Hairline&family=Bungee+Outline&family=Bungee+Shade&family=Comfortaa:wght@300&family=Expletus+Sans:wght@700&family=Josefin+Sans:wght@100&family=Jost&family=Keania+One&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Maven+Pro&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Roboto+Slab:wght@900&display=swap');
 .page-title{
     display:block;
     margin:3vw 0vw 4vw 0vw;
@@ -67,6 +67,17 @@
 }
 .tab-hr{
     border: 0.5px solid rgb(99, 97, 197)
+}
+.tobecontinued{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+#background-image-box{
+    display: flex;
+    height: 70vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: var(--darkGray);
 }
 
 hr{
