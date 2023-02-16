@@ -1,0 +1,59 @@
+<!-- Home Page -->
+<!DOCTYPE html>
+<html>
+    <main>
+        <head>
+            <!--links-->
+            <!--fonts-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Anaheim&family=Bungee&family=Bungee+Hairline&family=Bungee+Outline&family=Bungee+Shade&family=Comfortaa:wght@300&family=Expletus+Sans:wght@700&family=Josefin+Sans:wght@100&family=Jost&family=Keania+One&family=Libre+Barcode+39+Text&family=Major+Mono+Display&family=Maven+Pro&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">            <!--load css-->
+            <link rel="stylesheet" href="css/mystyle.css">
+            <link rel="stylesheet" href="css/hp.css">
+            <!--load javascript-->
+            <script src="js/headerTab.js"></script>
+            <!--meta-->
+            <style>
+                body{
+                    background-image: url(images/others/Lucid00.png);
+                    background-size: 100vw;
+                    background-repeat: no-repeat;
+                }
+                .page-title {
+                    background-color: rgba(255, 255, 255, 0);
+                }
+            </style>
+        </head>
+        <body>
+            <!--HeaderSection graphics-->
+            <!--tabs-->
+            <div class="tab">
+                 <a href="pages/contact.html" alt="Contact"><button class="tablinks" tabindex="1">Contact</button></a>
+                 <button class="tablinks" tabindex="2" onclick="openManual(event, 'experiments-tab')">Experiments</button>
+                 <button class="tablinks" tabindex="3" onclick="openManual(event, 'support-tab')">Support</button>
+                 <a href="index.html" alt="Home-page"><button class="tablinks" tabindex="4">Home</button></a>
+            </div>
+            <!--tab content-->
+            <div id="support-tab" class="tabcontent">
+                <a href="pages/mn3.html" alt="Head-Pot-page"><button class="tablinks" tabindex="5">MN-3</button></a>
+                <a href="pages/hp2.html" alt="MN3-page"><button class="tablinks" tabindex="6">Head Pot</button></a>
+            </div>
+            <div id="experiments-tab" class="tabcontent">
+                <a href="pages/tunnel.html" alt="Head-Pot-page"><button class="tablinks" tabindex="5">Tunnel</button></a>
+                <a href="pages/ar.html" alt="MN3-page"><button class="tablinks" tabindex="6">Ash Reboot</button></a>
+            </div>
+
+            <hr class="tab-hr" style="height: 0.2px;"/>
+            <!--corp name-->
+            <a href="index.html" alt="Home-page" style="text-decoration: none;"><h2 id="title" class="page-title">404<br/>LAB</h2></a>
+
+            <!--placeholder block-->
+            <div id="background-image-box">
+
+            </div>
+            <h3 style="text-align: center;">...</h3>
+        </body>
+    </main>
+</html>
